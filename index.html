@@ -25,16 +25,7 @@
         left: 60px;
         top: 20px;
     }
-     .left img {
-        width: 136px;
-        filter: invert(100%);
-    }
-
-    .left div {
-        line-height: 19px;
-        font-size: 26px;
-        text-align: center;
-    }
+    
     }
     .mid {
         display: block;
@@ -43,6 +34,11 @@
         width: 136px;
         filter: invert(100%);
     }
+    .right img {
+        width: 136px;
+        filter: invert(100%);
+
+    }
     .right {
         position: absolute;
         right: 34px;
@@ -50,6 +46,17 @@
         display: inline-block;
        
 	}
+	.center {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  width: 50%;
+}
+	 .right div {
+        line-height: 19px;
+        font-size: 26px;
+        text-align: center;
+    }
 	 .navbar {
         display: inline-block;
     }
@@ -99,7 +106,7 @@
 <body>
 	 <header class="header">
         <div class="left">
-          
+           
         </div>
         <div class="mid" >
             <ul class="navbar">
@@ -113,6 +120,8 @@
         </div>
         
         <div class="right">
+        	<img src="gymlogo.jpg"  alt="" class="center" class="img-fluid img-responsive" >
+            <div>HP Fitness</div>
             <button class="btn">Call Us Now</button>
             <button class="btn">Email Us</button>
         </div>
